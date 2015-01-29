@@ -1,16 +1,17 @@
 require 'sinatra'
+# require_relative ''
 
-get '/home' do
-  @title = "HOME"
+get '/' do
+  # @title = "HOME"
   erb :home
 end
 
 get '/contact' do
-  @title = "CONTACT"
+  # @title = "CONTACT"
   erb :contact
 end
 
 get '/funny' do
-  @title = "FUNNY"
+  # @title = "FUNNY"
   erb :funny
 end
