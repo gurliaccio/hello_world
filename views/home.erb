@@ -1,0 +1,39 @@
+<head>
+  <style>
+
+video#small{
+  min-width:100%;
+  min-height:100%;
+  width:auto;
+  height:auto;
+  background: url(img/ptt.mp4) no-repeat top center;
+  background-size:cover;
+   -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+}
+
+</style>
+</head>
+
+<body>
+<h1>Now you're home.</h1>
+
+<video id="small" autoplay poster="img/ptt.mp4">
+  <source src="img/ptt.mp4" type="video/mp4">
+</video>
+
+<script>
+var vid = document.getElementById("small");
+function enableAutoplay() { 
+    vid.autoplay = true;
+    vid.load();
+} 
+</script> 
+
+<p><br>Get comfortable.<br> Click contact below to...<br><br>well...<br><br>contact me.<br>For some laughs, try funny.</p>
+
+</body>
+
+
+</body>
